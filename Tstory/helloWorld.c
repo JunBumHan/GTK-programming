@@ -20,7 +20,7 @@ static void activate(GtkApplication * app, gpointer user_data)
     gtk_widget_show(window);
 }
 
-int main(int argc, char ** argv)
+int main(int argc, char * argv[])
 {
     GtkApplication * app;
     int status;
